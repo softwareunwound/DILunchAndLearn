@@ -7,8 +7,8 @@ https://www.youtube.com/watch?v=1rdklszOqQA&feature=youtu.be
 -	3) Right click on solution and choose to restore nuget packages
 -	4) Build project
 -	5) Launch SQL Server Management Services, point to your local Sql instance and run the scripts found at: https://github.com/softwareunwound/DILunchAndLearn/tree/master/LunchAndLearnDI/DataAccess/DataPopulationScripts
-6) Ensure that Mongodb is running locally on your machine
-7) Run the unit test https://github.com/nemesek/DILunchAndLearn/blob/master/UnitTestProject1/SyncUpMongo.cs
+- 6) Ensure that Mongodb is running locally on your machine
+- 7) Run the unit test https://github.com/nemesek/DILunchAndLearn/blob/master/UnitTestProject1/SyncUpMongo.cs
 This will populate mongo with the same data that is in your newly created DB from step 5.
 https://github.com/softwareunwound/DILunchAndLearn/blob/master/LunchAndLearnDI/DataAccess/EFProductsRepository.cs and https://github.com/softwareunwound/DILunchAndLearn/blob/master/LunchAndLearnDI/DataAccess/MongoProductsRepository.cs
 
